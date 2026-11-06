@@ -1,0 +1,19 @@
+{
+  "name": "forge-resolver-probe",
+  "version": "0.1.0",
+  "description": "Run an Atlassian Forge resolver on your machine and watch what it does to storage.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "example": "node --no-warnings --import ./src/register.mjs example/probe.mjs",
+    "test": "node --no-warnings --import ./src/register.mjs --test test/*.test.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
